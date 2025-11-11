@@ -41,7 +41,7 @@ Este repositório contém uma implementação em Python que:
 
 Funções
 -------------------------------------------------
-- `distancia(p1, p2)` — distância euclidiana entre pontos
+- `distancia(p1, p2)` — distância euclidiana entre pontos.
 - `orientacao(a,b,c)`, `intersecao(p1,q1,p2,q2)` — funções auxiliares para detectar interseção de segmentos (usadas ao gerar arestas do grafo).
 - Leitura de `mapa.txt` — cria `q_start`, `q_goal`, `obstaculos` (lista de polígonos).
 - `arvore_vertices` — lista de vértices usados no grafo: concatena `q_start`, `q_goal` e todos os vértices dos obstáculos (nessa ordem).
